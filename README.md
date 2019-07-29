@@ -15,6 +15,7 @@ Step1: Create project directory named "drf"
 Step2: Install python packages using pipenv.
               syntax: pipenv install <package-name>
        
+       pipenv shell
        pipenv install djangorestframework 
        pipenv install markdown
        pipenv install django-filter
