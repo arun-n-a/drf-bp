@@ -6,12 +6,13 @@ Pre-requirement:
        Django 2.2.3
        pipenv
 Step1: Create project directory named "drf"
+
               mkdir drf
-       change directory
               cd drf
               
 Step2: Install python packages using pipenv.
               syntax: pipenv install <package-name>
+       
        pipenv install djangorestframework 
        pipenv install markdown
        pipenv install django-filter
@@ -19,9 +20,10 @@ Step2: Install python packages using pipenv.
        
 Step3: Create project named "boilerplate" in the current directory.
               syntax: django-admin startproject <new-project-name> .
+       
        django-admin startproject boilerplate .
        
-       Now the directory looks like:  .
+Now the directory looks like:  .
          ├── boilerplate
          │   ├── __init__.py
          │   ├── settings.py
@@ -34,6 +36,7 @@ Step3: Create project named "boilerplate" in the current directory.
 Step4: Create first app named "customer"
        syntax: python manage.py startapp <app-name>
   Before creating the app make sure that you are in same directory where the file "manage.py" is present.
+       
        python manage.py startapp customer
   
   Now the directory looks like:
@@ -59,6 +62,7 @@ Step4: Create first app named "customer"
 Step5: Create second app named "polls"
               syntax: python manage.py startapp <app-name>
        Before creating the app make sure that you are in same directory where the file "manage.py" is present.
+              
               python manage.py startapp polls
        
  Now the directory looks like:
@@ -90,6 +94,7 @@ Step5: Create second app named "polls"
            ├── tests.py
            └── views.py
 Step6: Now sync your database for the first time
+              
               python manage.py migrate
 Step7:  create an initial user named "admin1" with a password of "password123"
               syntax: python manage.py createsuperuser --email <email> --username <username>
