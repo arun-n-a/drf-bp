@@ -37,6 +37,7 @@ Step4: Create first app named "customer"
        python manage.py startapp customer
   
   Now the directory looks like:
+  
     ├── boilerplate
     │   ├── __init__.py
     │   ├── settings.py
