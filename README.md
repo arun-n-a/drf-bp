@@ -1,6 +1,7 @@
 # drf-bp
 Boilerplate for Django REST framework
 
+
 Pre-requirement:
        python 3.7.4
        Django 2.2.3
@@ -24,6 +25,7 @@ Step3: Create project named "boilerplate" in the current directory.
        django-admin startproject boilerplate .
        
 Now the directory looks like:  .
+         
          ├── boilerplate
          │   ├── __init__.py
          │   ├── settings.py
