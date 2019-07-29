@@ -62,7 +62,7 @@ Step5: Create second app named "polls"
               python manage.py startapp polls
        
  Now the directory looks like:
-        .
+       
        ├── boilerplate
        │   ├── __init__.py
        │   ├── settings.py
@@ -93,5 +93,6 @@ Step6: Now sync your database for the first time
               python manage.py migrate
 Step7:  create an initial user named "admin1" with a password of "password123"
               syntax: python manage.py createsuperuser --email <email> --username <username>
+       
        python manage.py createsuperuser --email arun92saanthi@gmail.com --username admin1
 Step8: 
