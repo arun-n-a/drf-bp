@@ -3,6 +3,7 @@ Boilerplate for Django REST framework
 
 
 Pre-requirement:
+       
        python 3.7.4
        Django 2.2.3
        pipenv
