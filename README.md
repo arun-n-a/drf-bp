@@ -5,7 +5,6 @@ Boilerplate for Django REST framework
 Pre-requirement:
        
        python 3.7.4
-       Django 2.2.3
        pipenv
 Step1: Create project directory named "drf"
 
@@ -16,6 +15,7 @@ Step2: Install python packages using pipenv.
               syntax: pipenv install <package-name>
        
        pipenv shell
+       pipenv install Django~=2.2.3
        pipenv install djangorestframework 
        pipenv install markdown
        pipenv install django-filter
